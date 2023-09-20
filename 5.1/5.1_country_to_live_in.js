@@ -1,10 +1,11 @@
-const language = prompt('What language do you prefer?');
-const isIsland = prompt('Is it an island (true or false)?') === 'true';
-const population = parseInt(prompt('What is the population of the country?'));
-const country = prompt('Enter the name of the country:').toLowerCase();
+const language = prompt('language');
+let isIsland = prompt('isIsland');
+const population = parseInt(prompt('population'));
+const country = prompt('country');
 
-if (language === 'english' && !isIsland && population < 50) {
-  console.log(`You should live in ${country}.`);
+isIsland == 'false' ? isIsland = false : isIsland=true;
+
+if(language === 'english' && population < 50 && !isIsland) {
+    console.log(`You should live in ${country}`)
 } else {
-  console.log(`${country} does not meet your criteria.`);
-}
+    console.log(`${country} does not meet yout criteria`)}
