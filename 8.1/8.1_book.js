@@ -4,7 +4,10 @@ const mysteryBook = {
     published: 2002,
     genre: 'fiction',
 }
+
 function describeBook(book) {
     return `The book ${book.bookName} was written by ${book.author} in the year ${book.published}`;
 }
-console.log(describeBook(mysteryBook));
+///result here:
+console.log(describeBook(mysteryBook)); 
+
