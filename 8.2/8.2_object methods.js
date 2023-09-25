@@ -18,4 +18,4 @@ console.log(myCountry.describe());
 
 myCountry.checkIsland();
 console.log(myCountry.isIsland); 
-console.log(myCountry.isIsland);
+
