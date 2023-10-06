@@ -18,7 +18,6 @@
   const divWithId = document.querySelector('#y');
   console.log(divWithId);
 
-  // For multiple elements with the same tag, you might want to use querySelectorAll and loop through the NodeList
   const inputs = document.querySelectorAll('input');
   inputs.forEach(function(input) {
     console.log(input);
