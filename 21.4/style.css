@@ -131,7 +131,7 @@
 #lightbulb {
     width: 70vh; 
 }
-
+/* the 100vh is too big here */
 #toggleButton {
     display: block;
     margin: 20px auto;
